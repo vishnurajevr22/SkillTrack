@@ -10,7 +10,7 @@ so data survives a refresh."
 A frontend-only React dashboard for tracking the skills you're learning, the tasks
 you're working through, and the long-term goals behind them.
 
-**Live demo:** _add your deployed link here after running the deploy steps below_
+**Live demo:** https://skilltrack-learning.netlify.app/
 
 ## Features
 
