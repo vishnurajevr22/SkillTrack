@@ -3,7 +3,7 @@
 A frontend-only React dashboard for tracking the skills you're learning, the tasks
 you're working through, and the long-term goals behind them.
 
-**Live demo:** _add your deployed link here after running the deploy steps below_
+
 
 ## Features
 
@@ -68,19 +68,19 @@ src/
 └── main.jsx        App entry point
 ```
 
-## Explaining this project in an interview
 
-**30-second pitch:** "SkillTrack is a personal learning dashboard I built to
+
+** "SkillTrack is a personal learning dashboard I built to
 manage the skills, tasks, and goals I'm working through as a developer. It's a
 fully client-side React app — I used the Context API for shared state, React
 Router for navigation, and a custom hook to persist everything to localStorage
 so data survives a refresh."
 
-**If asked "why no backend?":** "This was scoped as a  frontend project to
+**"why no backend?":** "This was scoped as a  frontend project to
 demonstrate core React patterns cleanly. The natural next step is React frontend
 → a REST API → a database, which I've outlined as a future upgrade."
 
-**If asked "how would you add an API call?":** point to `AppContext.jsx` — explain
+**"how would you add an API call?":** point to `AppContext.jsx` — explain
 you'd replace the `useLocalStorage` calls with a `useEffect` that fetches from an
 endpoint on mount, add `isLoading`/`error` state, and keep the same CRUD function
 signatures so no page component would need to change.
